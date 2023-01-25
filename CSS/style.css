@@ -1,0 +1,64 @@
+body{
+    background-color: #586037;
+}
+
+.inlineBlock {
+    display: inline-block;
+    vertical-align: top;
+    padding: 130px;
+    text-align: center;
+}
+
+.logo{
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+}
+
+nav{
+    width: 100%;
+    padding: 1%;
+    font-size: 24px;
+    font-style: bold;
+    color: white;
+}
+
+ul{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.square{
+    width: 1104px;
+    height: 567px;
+    background-color: #B4E088;
+}
+
+.heroImg{
+    height: 483px;
+    padding: 25px;
+}
+
+.content{
+    height: 483px;
+    margin: 0 auto;
+}
+
+p{
+    width: 507px;
+}
+
+h1{
+    padding: 150px;
+    color: white;
+    font-size: 70px;
+    font-style: bold;
+
+}
+
+.connect{
+    font-size: 40px;
+    display: inline-block;
+    
+}
