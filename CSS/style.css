@@ -1,35 +1,29 @@
 body{
     background-color: #586037;
 }
-
 .inlineBlock {
     display: inline-block;
     vertical-align: top;
-    padding: 50px;
+    padding: 20px;
     text-align: center;
-
 }
 
-.logo{
-    width: 100%;
-    padding: 1%;
-    text-align: center;
+.inlineBlock li:not(:nth-child(3)) {
+    margin-top: 60px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.inlineBlock.logo {
+    display: block;
 }
 
 nav{
     width: 100%;
-    padding: 1%;
-    font-size: 24px;
-    font-style: bold;
     color: white;
     display:inline-block;
     vertical-align: top;
-}
-
-ul{
-    width: 100%;
-    margin: auto;
-    text-align: center;
+    font-size: 24px;
 }
 
 .square{
@@ -41,36 +35,88 @@ ul{
     justify-content: space-around;
     align-items: center;
     margin: auto;
-
 }
 
 .image{
     height: 483px;
     width: 386.4px;
 }
-
 .squiggly{
     width: 51px;
     height: 483px;
 }
 
-p{
-    width: 507px;
-    height: 483px;
-    font-size: 25px;
+.aboutMe {
+    width: 100%; 
+    max-width: 507px; 
     font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
 }
 
 h1{
-    padding: 150px;
-    color: white;
     font-size: 70px;
-    font-style: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    width: 80%;
+    height: 3px;
+    background-color: white;
 
 }
 
-.connect{
-    font-size: 40px;
-    display: inline-block;
+.projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: center;
+    justify-content: space-evenly;
+    row-gap: 50px;
+}
 
+.square2{
+    width: 832px;
+    height: 319px;
+    background-color: #B4E088;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: auto;
+
+}
+
+.contactPhotos{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.image1{
+    width: 150px;
+    height:150px;
+    align-self: center;
+    margin: auto;
+}
+
+.image2{
+    width: 150px;
+    height:150px;
+    align-self: center;
+    margin: auto;
 }
