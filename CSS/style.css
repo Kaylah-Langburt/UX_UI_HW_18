@@ -18,6 +18,8 @@ body{
     display: block;
 }
 
+
+/* The nav contained a lot of properties that were not needed. Also your ul styling wasn't necessary to render the page the way it is now. */
 nav{
     width: 100%;
     color: white;
