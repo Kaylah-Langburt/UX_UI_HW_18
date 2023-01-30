@@ -19,7 +19,6 @@ body{
 }
 
 
-/* The nav contained a lot of properties that were not needed. Also your ul styling wasn't necessary to render the page the way it is now. */
 nav{
     width: 100%;
     color: white;
@@ -122,3 +121,69 @@ hr{
     align-self: center;
     margin: auto;
 }
+
+@media only screen and (max-width: 600){
+        .logo{
+            width: 100px;
+            height: 100px;
+        }
+
+        .inlineBlock{
+            display: none;
+        }
+
+        .square{
+            width: 361px;
+            height: 1266px;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-around;
+            align-items: center;
+            margin: auto;
+        }
+
+        .image{
+            width: 325px;
+            height: 406.25px;
+        }
+
+        .squiggly{
+            rotate: 90deg;
+        }
+
+        .aboutMe{
+            max-width: 325px;
+        }
+        
+        .h1{
+            font-size: 50px;
+        }
+
+        .projects{
+            display: flex;
+            flex-direction: column;
+            margin-left: 64px;
+            margin-right: 64px;
+            justify-content: center;
+            justify-content: space-evenly;
+            column-gap: 30px;
+        }
+
+        .square2{
+            width: 361px;
+            height: 194px;
+        }
+
+        .contact{
+            font-size: 20px;
+        }
+
+        .image2{
+            display: none;
+            align-self: center;
+            width: 75px;
+            height: 75px;
+        }
+
+}
+    
